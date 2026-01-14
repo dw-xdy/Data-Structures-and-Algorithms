@@ -1,7 +1,7 @@
 class Solution {
     // 方法 1. (直接暴力) 
     // 时间复杂度: O(n)
-    // 空间复杂度: O(n)
+    // 空间复杂度: O(1)
     public static int xorOperation(int n, int start) {
         int ans = 0;
 

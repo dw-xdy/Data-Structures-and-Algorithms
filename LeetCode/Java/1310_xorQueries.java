@@ -2,7 +2,7 @@ class Solution {
 
     // 直接进行暴力求解是可以的, 但是无法通过题目测试
     // 时间复杂度是: O(n * m)
-    // 空间复杂度是: O(n)
+    // 空间复杂度是: O(1)
     public int[] xorQueries(int[] arr, int[][] queries) {
         int[] nums = new int[queries.length];
 
@@ -16,7 +16,7 @@ class Solution {
 
     // 我们采用前缀异或和的方式进行求解.
     // 时间复杂度为: O(n + m)
-    // 空间复杂度为: O(n + m)
+    // 空间复杂度为: O(n)
     public int[] xorQueries(int[] arr, int[][] queries) {
         int n = arr.length;
         int m = queries.length;

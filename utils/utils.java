@@ -1,3 +1,6 @@
+// 关于这个utils, 因为我一般只是在neovim中刷算法题, 
+// 所以配置并没有那么好, 所以对应的代码提示会比较弱, 
+// 这里我直接设置一个utils, 方便使用常用的代码和库的导入.
 import java.io.*;
 import java.util.Comparator;    // 自定义比较器
 import java.util.Arrays;        // 数组排序、二分查找等
